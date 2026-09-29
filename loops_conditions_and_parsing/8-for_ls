@@ -1,0 +1,5 @@
+#!/bin/bash
+# Lists current directory content, keeping only what follows the first dash
+for f in *; do
+	echo "${f#*-}"
+done
